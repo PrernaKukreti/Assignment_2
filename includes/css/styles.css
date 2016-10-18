@@ -1,0 +1,354 @@
+
+
+
+body{
+     -webkit-font-smoothing:antialiased;
+     text-rendering: optimizeLegibility;
+ }
+
+
+ #nav
+ {
+  background: url(../../images/nav.jpg);
+  height:80px;
+  font-family: 'Bungee Inline', cursive;
+
+
+ }
+
+
+   #searchInput
+   {
+   width:200px;
+
+
+   }
+
+  #navfont1
+  {
+    font-family: 'Courgette', cursive;
+  }
+
+  #linknav
+  {
+  color: white;
+  font-family: 'Bungee Inline', cursive;
+
+  }
+
+  #linknav1
+  {
+  color: white;
+  font-family: 'Bungee Inline', cursive;
+  margin-left: 20px;
+
+  }
+
+  #linknav2
+  {
+  color: black;
+  font-family: 'Bungee Inline', cursive;
+  margin-left: 20px;
+
+  }
+
+#footer_fl
+{
+background: url(../../images/nav.jpg);
+margin-top: 50px;
+
+}
+#footer_fl1
+{
+background: url(../../images/vintage.jpg);
+margin-top: 50px;
+
+}
+
+ #myCarousel .item
+   {
+     height:400px;
+     margin-top: 100px;
+
+   }
+
+#slide1
+{
+background: url('../../images/wine1.jpg')top center no-repeat;
+
+}
+
+#slide2
+{
+background: url('../../images/wine2.jpg') top center no-repeat;
+}
+
+#slide3
+{
+background: url('../../images/wine5.jpg') top center no-repeat;
+}
+
+#car-para
+{
+font-family: 'Kaushan Script', cursive;
+
+}
+#features
+{
+  background: url(../../images/olive.jpg);
+}
+
+
+
+#featuresHeading
+{
+background: url(../../images/olive.jpg);
+margin-top: 0px;
+}
+#featureh2
+{
+  color: #e6ffb3;
+  font-family: 'Racing Sans One', cursive;
+}
+#featurep
+{
+  color: white;
+  font-family: 'Kaushan Script', cursive;
+
+}
+
+#panels
+{
+background-color: black;
+
+}
+#panel_element
+{
+color: #c2c2a3;
+  font-family: 'Racing Sans One', cursive;
+}
+
+#panel_elementplan
+{
+color: black;
+  font-family: 'Racing Sans One', cursive;
+}
+#panel_element1
+{
+color: #c2c2a3;
+  font-family: 'Racing Sans One', cursive;
+  margin-left: 250px;
+}
+#panel_element2
+{
+  color: #c2c2a3;
+    font-family: 'Racing Sans One', cursive;
+
+}
+#panel_element3
+{
+  color: #c2c2a3;
+    font-family: 'Kaushan Script', cursive;
+ text-align: center;
+}
+
+
+#moreinfo_6
+{
+background: url(../../images/body11.jpg);
+height:600px;
+margin-top: 30px;
+}
+#form-12
+{
+background: url(../../images/hh.jpg);
+margin-top: 100px;
+
+}
+#formgroup
+{
+margin-top: 50px;
+
+}
+#section1
+{
+  background: url(../../images/hh.jpg);
+height:600px;
+margin-top: 30px;
+
+}
+
+
+
+#finger_lakewines
+{
+ background: url(../../images/body4.jpg);
+ height:400px;
+
+}
+
+#finger_lakemocktails
+{
+ background: url(../../images/body15.jpg);
+ height:450px;
+
+}
+#finger_lakefood
+{
+ background: url(../../images/vintage1.jpg);
+ height:450px;
+
+}
+
+#finger_lakecakes
+{
+ background: url(../../images/cupcake8.jpg);
+ height:400px;
+
+}
+
+#footer_li li
+{
+display: inline;
+padding: 25px;
+
+}
+
+#footer_li1 li
+{
+display: inline;
+padding: 25px;
+align: center;
+}
+
+
+#section1h
+{
+color: #6699ff;
+font-family: 'Ruslan Display', cursive;
+
+}
+#finger_lake6
+{
+background: url(../../images/olive.jpg);
+height:550px;
+
+}
+#thumb
+{
+  margin-top: 20px;
+
+
+}
+
+
+body
+{
+background:url(../../images/body5.jpg);
+
+}
+#mypageheader
+{
+  color: #b3b300;
+  font-family: 'Ruslan Display', cursive;
+}
+
+#headerlead
+{
+  font-family: 'Shrikhand', cursive;
+  color: #ff9933;
+}
+
+#bigCallout
+{
+
+background-color: black;
+margin-top: 30px;
+
+}
+
+#page-header
+{
+
+background: url(../../images/body4.jpg);
+margin-top: 20px;
+}
+
+
+
+
+footer
+{
+
+  background: url(../../images/body5.jpg)
+}
+
+
+
+
+@media (max-width: 480px)
+ {
+#myCarousel .item { height: 310px; }
+
+   #slide1
+   {
+   background: url('../../images/wine1_small.jpg')top center no-repeat;
+
+   }
+
+   #slide2
+   {
+   background: url('../../images/wine2_small.jpg') top center no-repeat;
+   }
+
+   #slide3
+   {
+   background: url('../../images/wine5_small.jpg') top center no-repeat;
+   }
+
+}
+
+@media (max-width: 768px)
+{
+  #myCarousel .item { height: 400px; }
+  #slide1
+  {
+  background: url('../../images/wine1_medium.jpg')top center no-repeat;
+
+  }
+
+  #slide2
+  {
+  background: url('../../images/wine2_medium.jpg') top center no-repeat;
+  }
+
+  #slide3
+  {
+  background: url('../../images/wine5_medium.jpg') top center no-repeat;
+  }
+
+
+}
+
+/* Large desktop */
+@media (min-width: 1200px)
+ {
+#myCarousel .item { height: 500px; }
+
+   #slide1
+   {
+   background: url('../../images/wine1.jpg')top center no-repeat;
+
+   }
+
+   #slide2
+   {
+   background: url('../../images/wine2.jpg') top center no-repeat;
+   }
+
+   #slide3
+   {
+   background: url('../../images/wine5.jpg') top center no-repeat;
+   }
+
+}
